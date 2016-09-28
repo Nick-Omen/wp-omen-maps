@@ -33,6 +33,7 @@ And this will render the Yandex Map with initial screen in Bishkek.
 *  zoom - Zoom(0-21 for Google map, 0-17 for Yandex map)
 *  width - Width of the map. Pass 0 if you need full-width map.
 *  height - Height of the map. Pass 0 if you need a full-height map.
+*  title - Title for the initial marker.
 
 == Installation ==
 
@@ -40,3 +41,11 @@ And this will render the Yandex Map with initial screen in Bishkek.
 1. Activate the plugin through the 'Plugins' screen in WordPress
 1. Use the Settings->Omen Maps screen to configure the plugin
 1. Use it!
+
+== Changelog ==
+
+= 0.2.0 =
+*  Added marker on map.
+*  Add Title to marker.
+*  Add Russian localization.
+*  Fixed values on the config page.

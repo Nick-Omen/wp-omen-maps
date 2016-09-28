@@ -2,7 +2,8 @@
 /**
  * Plugin Name: Omen Maps
  * Description: Simply add Google/Yandex map to your WordPress site via shortcode.
- * Version: 0.1.0
+ * Version: 0.2.0
+ * Text Domain: omen-maps
  *
  * Author: Nikita Nikitin <nikita.omen666@gmail.com>
  * Author URI: http://www.nick-omen.com/
@@ -16,7 +17,7 @@ if (!function_exists('add_action')) {
 }
 
 define('OMEN_MAPS_PLUGIN_DIR', plugin_dir_path(__FILE__));
-define('OMEN_MAPS_PLUGIN_VERSION', '0.1.0');
+define('OMEN_MAPS_PLUGIN_VERSION', '0.2.0');
 
 require_once(OMEN_MAPS_PLUGIN_DIR . 'OmenMaps.class.php');
 add_action('init', array('OmenMaps', 'init'));

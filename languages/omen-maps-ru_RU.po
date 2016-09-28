@@ -1,0 +1,65 @@
+# Copyright (C) 2016 Omen Maps
+# This file is distributed under the same license as the Omen Maps package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Omen Maps 0.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/omen-maps\n"
+"POT-Creation-Date: 2016-09-26 12:21:39+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-09-28 20:51+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: ru-_RU\n"
+
+#: OmenMaps.class.php:22
+msgid "The google map API key is required. Please add it in admin panel."
+msgstr ""
+"API ключ для карт Google является обязательным. Пожалуйста, добавьте его в "
+"админ панели."
+
+#. #-#-#-#-#  omen-maps.pot (Omen Maps 0.2.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/OmenMapsAdmin.class.php:28 views/admin/configs.php:13
+msgid "Omen Maps"
+msgstr "Omen Maps"
+
+#: views/admin/configs.php:20
+msgid "Google map configs"
+msgstr "Настройки карт Google"
+
+#: views/admin/configs.php:24
+msgid "Google Map API key"
+msgstr "API ключ для карт Google"
+
+#: views/admin/configs.php:33 views/admin/configs.php:65
+msgid "Initial latitude"
+msgstr "Начальная широта"
+
+#: views/admin/configs.php:42 views/admin/configs.php:74
+msgid "Initial longitude"
+msgstr "Начальная долгота"
+
+#: views/admin/configs.php:51 views/admin/configs.php:83
+msgid "Initial zoom"
+msgstr "Начальное приближение"
+
+#: views/admin/configs.php:61
+msgid "Yandex map configs"
+msgstr "Конфигурация карт Яндекс"
+
+#. Description of the plugin/theme
+msgid "Simply add Google/Yandex map to your WordPress site via shortcode."
+msgstr ""
+"Без труда добавляйте Google/Яндекс карты с помошью шорткода на свой "
+"WordPress сайт."
+
+#. Author of the plugin/theme
+msgid "Nikita Nikitin <nikita.omen666@gmail.com>"
+msgstr "Никита Никитин <nikita.omen666@gmail.com>"
+
+#. Author URI of the plugin/theme
+msgid "http://www.nick-omen.com/"
+msgstr "http://www.nick-omen.com/"

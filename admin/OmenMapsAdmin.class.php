@@ -20,6 +20,7 @@ class OmenMapsAdmin
     {
         add_action('admin_menu', array('OmenMapsAdmin', 'add_menu_instance'));
         add_action('admin_init', array('OmenMapsAdmin', 'register_settings'));
+        load_plugin_textdomain('omen-maps', false, OMEN_MAPS_PLUGIN_DIR . 'languages' );
     }
 
     public static function add_menu_instance()
@@ -31,6 +32,14 @@ class OmenMapsAdmin
     public static function register_settings()
     {
         register_setting('omen-maps-settings', 'omen_maps_google_api_key');
+        register_setting('omen-maps-settings', 'omen_maps_google_initial_lat');
+        register_setting('omen-maps-settings', 'omen_maps_google_initial_lng');
+        register_setting('omen-maps-settings', 'omen_maps_google_initial_zoom');
+        register_setting('omen-maps-settings', 'omen_maps_google_marker_title');
+        register_setting('omen-maps-settings', 'omen_maps_yandex_initial_lat');
+        register_setting('omen-maps-settings', 'omen_maps_yandex_initial_lng');
+        register_setting('omen-maps-settings', 'omen_maps_yandex_initial_zoom');
+        register_setting('omen-maps-settings', 'omen_maps_yandex_marker_title');
     }
 
     public static function display_page_configs()
