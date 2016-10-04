@@ -20,7 +20,7 @@ class OmenMapsAdmin
     {
         add_action('admin_menu', array('OmenMapsAdmin', 'add_menu_instance'));
         add_action('admin_init', array('OmenMapsAdmin', 'register_settings'));
-        load_plugin_textdomain('omen-maps', false, OMEN_MAPS_PLUGIN_DIR . 'languages' );
+        load_plugin_textdomain('omen-maps', false, OMEN_MAPS_FOLDER_NAME . '/languages/');
     }
 
     public static function add_menu_instance()

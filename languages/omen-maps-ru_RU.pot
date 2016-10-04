@@ -2,23 +2,22 @@
 # This file is distributed under the same license as the Omen Maps package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Omen Maps 0.2.0\n"
+"Project-Id-Version: Omen Maps 0.2.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/omen-maps\n"
-"POT-Creation-Date: 2016-09-26 12:21:39+00:00\n"
+"POT-Creation-Date: 2016-10-04 06:39:10+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-09-28 20:51+0600\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"X-Generator: Poedit 1.5.4\n"
+"Project-Id-Version: Stable (latest release)\n"
+"Last-Translator: Nikita Nikitin <nikita.omen666@gmail.com>\n"
+"Language-Team: Nikita Nikitin <nikita.omen666@gmail.com>\n"
 "Language: ru-_RU\n"
 
 #: OmenMaps.class.php:22
 msgid "The google map API key is required. Please add it in admin panel."
 msgstr ""
-"API ключ для карт Google является обязательным. Пожалуйста, добавьте его в "
-"админ панели."
+"Ключ для карт Google является обязательным. Пожалуйста, добавьте его на "
+"странице настроек плагина."
 
 #. #-#-#-#-#  omen-maps.pot (Omen Maps 0.2.0)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
@@ -34,21 +33,37 @@ msgstr "Настройки карт Google"
 msgid "Google Map API key"
 msgstr "API ключ для карт Google"
 
-#: views/admin/configs.php:33 views/admin/configs.php:65
+#: views/admin/configs.php:33 views/admin/configs.php:74
 msgid "Initial latitude"
 msgstr "Начальная широта"
 
-#: views/admin/configs.php:42 views/admin/configs.php:74
+#: views/admin/configs.php:42 views/admin/configs.php:83
 msgid "Initial longitude"
 msgstr "Начальная долгота"
 
-#: views/admin/configs.php:51 views/admin/configs.php:83
+#: views/admin/configs.php:51 views/admin/configs.php:92
 msgid "Initial zoom"
 msgstr "Начальное приближение"
 
-#: views/admin/configs.php:61
+#: views/admin/configs.php:60
+msgid "Marker title for Google map."
+msgstr "Заголовок маркера для карты Google"
+
+#: views/admin/configs.php:70
 msgid "Yandex map configs"
 msgstr "Конфигурация карт Яндекс"
+
+#: views/admin/configs.php:101
+msgid "Marker title for Yandex map"
+msgstr "Заголовок маркера для Яндекс карты"
+
+#: views/google_map.php:16
+msgid "Hey, I am a default marker!"
+msgstr "Привет, я простой маркер!"
+
+#: views/yandex_map.php:16
+msgid "Hey, I am a default placemark!"
+msgstr "Привет, я простой маркер!"
 
 #. Description of the plugin/theme
 msgid "Simply add Google/Yandex map to your WordPress site via shortcode."

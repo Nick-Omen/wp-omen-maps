@@ -2,16 +2,12 @@
 # This file is distributed under the same license as the Omen Maps package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Omen Maps 0.2.0\n"
+"Project-Id-Version: Omen Maps 0.2.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/omen-maps\n"
-"POT-Creation-Date: 2016-09-26 12:21:39+00:00\n"
+"POT-Creation-Date: 2016-10-04 06:39:10+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-09-26 18:59+0600\n"
-"Last-Translator: Nikita Nikitin <nikita.omen666@gmail.com>\n"
-"Language-Team: ru_RU <LL@li.org>\n"
-"X-Generator: Poedit 1.5.4\n"
 
 #: OmenMaps.class.php:22
 msgid "The google map API key is required. Please add it in admin panel."
@@ -31,20 +27,36 @@ msgstr ""
 msgid "Google Map API key"
 msgstr ""
 
-#: views/admin/configs.php:33 views/admin/configs.php:65
+#: views/admin/configs.php:33 views/admin/configs.php:74
 msgid "Initial latitude"
 msgstr ""
 
-#: views/admin/configs.php:42 views/admin/configs.php:74
+#: views/admin/configs.php:42 views/admin/configs.php:83
 msgid "Initial longitude"
 msgstr ""
 
-#: views/admin/configs.php:51 views/admin/configs.php:83
+#: views/admin/configs.php:51 views/admin/configs.php:92
 msgid "Initial zoom"
 msgstr ""
 
-#: views/admin/configs.php:61
+#: views/admin/configs.php:60
+msgid "Marker title for Google map."
+msgstr ""
+
+#: views/admin/configs.php:70
 msgid "Yandex map configs"
+msgstr ""
+
+#: views/admin/configs.php:101
+msgid "Marker title for Yandex map"
+msgstr ""
+
+#: views/google_map.php:16
+msgid "Hey, I am a default marker!"
+msgstr ""
+
+#: views/yandex_map.php:16
+msgid "Hey, I am a default placemark!"
 msgstr ""
 
 #. Description of the plugin/theme

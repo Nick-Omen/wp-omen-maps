@@ -17,6 +17,7 @@ if (!function_exists('add_action')) {
 }
 
 define('OMEN_MAPS_PLUGIN_DIR', plugin_dir_path(__FILE__));
+define('OMEN_MAPS_FOLDER_NAME', dirname(plugin_basename(__FILE__)));
 define('OMEN_MAPS_PLUGIN_VERSION', '0.2.0');
 
 require_once(OMEN_MAPS_PLUGIN_DIR . 'OmenMaps.class.php');
